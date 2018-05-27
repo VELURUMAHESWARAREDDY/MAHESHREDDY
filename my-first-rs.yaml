@@ -15,7 +15,8 @@ spec:
         project: myfirstProj
         ver: 0.1
     spec:
-      image: httpd
-      ports:
-      - containerPort: 99
+      containers:
+      - image: httpd
+        ports:
+        - containerPort: 99
 
